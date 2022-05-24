@@ -39,6 +39,7 @@ const DestinatioSearch = props => {
             textInput: styles.textInput,
           }}
           query={{
+            // key: process.env.GOOGLE_MAP_KEY,
             key: 'AIzaSyD0gdWKMjP8f18RG4rE-pKjbBwN6hnxMS4',
             language: 'en',
           }}

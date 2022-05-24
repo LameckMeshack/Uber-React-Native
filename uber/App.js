@@ -8,6 +8,8 @@
 
 import React from 'react';
 import {StatusBar} from 'react-native';
+import {enableLatestRenderer} from 'react-native-maps';
+
 import DestinatioSearch from './src/screens/DestinationSearch/DestinationSearch';
 
 import HomeScreen from './src/screens/HomeScreen';
@@ -17,9 +19,9 @@ const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      {/* <HomeScreen /> */}
+      <HomeScreen />
       {/* <DestinatioSearch /> */}
-      <SearchResults />
+      {/* <SearchResults /> */}
     </>
   );
 };
